@@ -1,0 +1,36 @@
+{
+    "name": "PIXEL-UI",
+    "description": "A modern, optimized UI library to replace derma and other slow built in Garry's Mod functions.",
+    "latest": "2.0.0",
+    "author": "TomDotBat & Pulsar",
+    "license": "GPL-3.0",
+    "documentation": "https://docs.tomdotbat.dev/pixel-ui/getting-started",
+    "source": "https://github.com/Pulsar-Dev/pixel-ui",
+    "dependencies": [],
+    "versions": {
+        "1.3.0": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.0/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.0",
+            "changelog": "Initial Pulsar Fork Release"
+        },
+        "1.3.1": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.1/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.1",
+            "changelog": "Bug Fixes"
+        },
+        "1.3.2": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.2/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.2",
+            "changelog": "Features\n- :SetCanScroll function on PIXEL.ScrollPanel\n- :OnOpen and :OnClose functions on PIXEL.ComboBox"
+        },
+        "2.0.0": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/2.0.0/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/2.0.0",
+            "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff"
+        }
+    }
+}

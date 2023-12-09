@@ -1,0 +1,6 @@
+{
+    "modules": {
+        "pixel-ui": "./pixel-ui",
+        "updatr": "./updatr"
+    }
+}
