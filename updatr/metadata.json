@@ -6,13 +6,13 @@
     "license": "MIT",
     "documentation": "https://docs.lythium.dev/s/wiki/doc/updatr-2h5vSXGfHQ",
     "source": "https://github.com/Pulsar-Dev/updatr",
-    "dependencies": [],
     "versions": {
         "0.0.1": {
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.1/updatr.gma",
             "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.1",
-            "changelog": "Initial Release"
+            "changelog": "Initial Release",
+            "dependencies": []
         }
     }
 }
