@@ -1,4 +1,4 @@
 {
-    "pixel-ui": "./pixel-ui",
-    "updatr": "./updatr"
+    "pixel-ui": "/pixel-ui",
+    "updatr": "/updatr"
 }
