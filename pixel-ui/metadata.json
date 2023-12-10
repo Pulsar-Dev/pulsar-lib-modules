@@ -38,7 +38,7 @@
             "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
             "folder": "pixel-ui",
             "dependencies": {
-                "updatr": "0.0.1"
+                "updatr": "latest"
             }
         }
     }
