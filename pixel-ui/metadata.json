@@ -33,7 +33,9 @@
             "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/2.0.0/pixel-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/2.0.0",
             "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
-            "dependencies": {}
+            "dependencies": {
+                "updatr": "0.0.1"
+            }
         }
     }
 }
