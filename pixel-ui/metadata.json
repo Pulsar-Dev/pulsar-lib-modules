@@ -12,28 +12,28 @@
             "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.0/pixel-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.0",
             "changelog": "Initial Pulsar Fork Release",
-            "dependencies": []
+            "dependencies": {}
         },
         "1.3.1": {
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.1/pixel-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.1",
             "changelog": "Bug Fixes",
-            "dependencies": []
+            "dependencies": {}
         },
         "1.3.2": {
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.2/pixel-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.2",
             "changelog": "Features\n- :SetCanScroll function on PIXEL.ScrollPanel\n- :OnOpen and :OnClose functions on PIXEL.ComboBox",
-            "dependencies": []
+            "dependencies": {}
         },
         "2.0.0": {
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/2.0.0/pixel-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/2.0.0",
             "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
-            "dependencies": []
+            "dependencies": {}
         }
     }
 }
