@@ -20,7 +20,7 @@ Modules can be added by creating a folder called `module-name` in this base fold
     "versions": {
         "1.0.0": { // Version number
             "type": "release", // Type of version. Can be "release", "beta", or "alpha"
-            "file": "https://github.com/My-Org/My-Repo/releases/download/0.0.1/updatr.gma", // Link to the module's `.gma` file. This can be a http download link or can be a filepath. e.g., `/1.0.0/my-module.gma` - This means that the `.gma` file should be in the same folder or subfolder as the `metadata.json` file.
+            "file": "https://github.com/My-Org/My-Repo/releases/download/1.0.0/my-module.gma", // Link to the module's `.gma` file. This can be a http download link or can be a filepath. e.g., `/1.0.0/my-module.gma` - This means that the `.gma` file should be in the same folder or subfolder as the `metadata.json` file.
             "src": "https://github.com/My-Org/My-Repo/tree/1.0.0", // Link to the module's source code.
             "folder": "my-module", // The folder name of the module. This is used to check if the module is installed in the addons folder for development purposes.
             "changelog": "Initial Release",
