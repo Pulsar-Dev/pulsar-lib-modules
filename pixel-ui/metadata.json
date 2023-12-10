@@ -37,9 +37,7 @@
             "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/2.0.0",
             "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
             "folder": "pixel-ui",
-            "dependencies": {
-                "updatr": "latest"
-            }
+            "dependencies": {}
         }
     }
 }
