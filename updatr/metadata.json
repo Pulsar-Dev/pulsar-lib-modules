@@ -11,6 +11,7 @@
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.1/updatr.gma",
             "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.1",
+            "folder": "updatr",
             "changelog": "Initial Release",
             "dependencies": {}
         }
