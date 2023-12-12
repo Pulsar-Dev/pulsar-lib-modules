@@ -18,6 +18,8 @@ Modules can be added by creating a folder called `module-name` in this base fold
     "documentation": "https://my-module-documentation.com", // Link to the module's documentation. Blank if any.
     "source": "https://github.com/My-Org/My-Repo", // Link to the module's source code. Blank if any.
     "folder": "my-module", // The folder name of the module. This is used to check if the module is installed in the addons folder for development purposes.
+    "global-var": "MyModule", // The global variable name of the module. This is used to check if the module has been loaded already.
+    "load-hook": "MyModule.FullyLoaded", // The hook that is called when the module has fully loaded.
     "versions": {
         "1.0.0": { // Version number
             "type": "release", // Type of version. Can be "release", "beta", or "alpha"

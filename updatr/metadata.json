@@ -7,12 +7,21 @@
     "documentation": "https://docs.lythium.dev/s/wiki/doc/updatr-2h5vSXGfHQ",
     "source": "https://github.com/Pulsar-Dev/updatr",
     "folder": "updatr",
+    "global-var": "PIXEL",
+    "load-hook": "PIXEL.UI.FullyLoaded",
     "versions": {
         "0.0.1": {
             "type": "release",
             "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.1/updatr.gma",
             "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.1",
             "changelog": "Initial Release",
+            "dependencies": {}
+        },
+        "0.0.2": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.2/updatr.gma",
+            "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.2",
+            "changelog": "Add some more debug logs and stuff",
             "dependencies": {}
         }
     }

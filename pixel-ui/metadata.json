@@ -7,6 +7,8 @@
     "documentation": "https://docs.tomdotbat.dev/pixel-ui/getting-started",
     "source": "https://github.com/Pulsar-Dev/pixel-ui",
     "folder": "pixel-ui",
+    "global-var": "PIXEL",
+    "load-hook": "PIXEL.UI.FullyLoaded",
     "versions": {
         "1.3.0": {
             "type": "release",
