@@ -7,8 +7,8 @@
     "documentation": "https://docs.lythium.dev/s/wiki/doc/updatr-2h5vSXGfHQ",
     "source": "https://github.com/Pulsar-Dev/updatr",
     "folder": "updatr",
-    "global-var": "PIXEL",
-    "load-hook": "PIXEL.UI.FullyLoaded",
+    "global-var": "Updatr",
+    "load-hook": "Updatr.FullyLoaded",
     "versions": {
         "0.0.1": {
             "type": "release",
