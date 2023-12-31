@@ -1,41 +1,69 @@
 {
     "name": "PIXEL-UI",
     "description": "A modern, optimized UI library to replace derma and other slow built in Garry's Mod functions.",
-    "latest": "2.0.0",
-    "author": "TomDotBat & Pulsar",
+    "latest": "1.3.1",
+    "author": "TomDotBat",
     "license": "GPL-3.0",
     "documentation": "https://docs.tomdotbat.dev/pixel-ui/getting-started",
-    "source": "https://github.com/Pulsar-Dev/pixel-ui",
+    "source": "https://github.com/TomDotBat/pixel-ui",
     "folder": "pixel-ui",
     "global-var": "PIXEL",
     "load-hook": "PIXEL.UI.FullyLoaded",
     "versions": {
+        "1.0.0": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.0.0.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.0.0",
+            "changelog": "Initial release",
+            "dependencies": {}
+        },
+        "1.1.0": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.1.0.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.1.0",
+            "changelog": "- Remove pointless prints from the version checker\n- Store the current version number as a string instead of a number (allows semantic versioning)\n- Rename the common folder to the more appropriately named \"core\" folder\n- Prefix existing convars with pixel_ui to keep convar naming consistency across all PIXEL addons\n- Add a method overriding helper for overrides that may want to be toggled\n- Allow the derma popup overrides to be disabled, and keep it off by default to prevent any annoyances",
+            "dependencies": {}
+        },
+        "1.2.0": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.2.0.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.2.0",
+            "changelog": "- Fixed TextEntry:GetInt() causing errors when the entry is empty.\n- Add useful colour helper methods to their meta table.\n- Optimised colour methods.\n- Optimised Imgur drawing methods.\n- Made loader methods global, more readable, and separated into two seperate methods.\n- Add a configuration file, which allows server owners to change the library colour scheme, progress wheel image and derma menu override preference.",
+            "dependencies": {}
+        },
+        "1.2.1": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.2.1.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.2.1",
+            "changelog": "- Added missing changes from update 1.2.0 (optimisation of colour methods, new loader methods).\n- Fixed the arguments passed to ScrollPanel:LayoutContent().",
+            "dependencies": {}
+        },
+        "1.2.2": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.2.2.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.2.2",
+            "changelog": "- Fixed loader path corruption preventing the library from loading.",
+            "dependencies": {}
+        },
+        "1.2.3": {
+            "type": "release",
+            "file": "/gma/pixel-ui-1.2.3.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.2.3",
+            "changelog": "- Revert the removal of HSLToColor and ColorToHSL to fix the built in colour picker element.",
+            "dependencies": {}
+        },
         "1.3.0": {
             "type": "release",
-            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.0/pixel-ui.gma",
-            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.0",
-            "changelog": "Initial Pulsar Fork Release",
+            "file": "/gma/pixel-ui-1.3.0.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.3.0",
+            "changelog": "- chore: add a readme with links to example projects by @TomDotBat in #26\n- fix: Wording because Tom can't words by @LucaTanks in #27\n- chore: add a header to the README file by @Lythium4848 in #34\n- feat: download imgur materials sequentially by @TomDotBat in #37\n- chore: update copyright notices by @TomDotBat in #39\n- feat: GLuaLint action by @Lythium4848 in #38\n- fix: PrecacheArc broken endrange if startrange is non-zero by @JustPlayerDE in #44\n- feat: Support for non imgur hosted images by @Lythium4848 in #40\n- fix: category layout when initially expanded by @vaqxai in #41",
             "dependencies": {}
         },
         "1.3.1": {
             "type": "release",
-            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.1/pixel-ui.gma",
-            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.1",
-            "changelog": "Bug Fixes",
-            "dependencies": {}
-        },
-        "1.3.2": {
-            "type": "release",
-            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/1.3.2/pixel-ui.gma",
-            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/1.3.2",
-            "changelog": "Features\n- :SetCanScroll function on PIXEL.ScrollPanel\n- :OnOpen and :OnClose functions on PIXEL.ComboBox",
-            "dependencies": {}
-        },
-        "2.0.0": {
-            "type": "release",
-            "file": "https://github.com/Pulsar-Dev/pixel-ui/releases/download/2.0.0/pixel-ui.gma",
-            "src": "https://github.com/Pulsar-Dev/pixel-ui/tree/2.0.0",
-            "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
+            "file": "/gma/pixel-ui-1.3.1.gma",
+            "src": "https://github.com/TomDotBat/pixel-ui/tree/1.3.1",
+            "changelog": "- refactor: migrate images from Imgur by @Lythium4848 in #47\n- chore: release 1.3.1 by @TomDotBat in #49\n- Fixed issues: #45 and #48",
             "dependencies": {}
         }
     }

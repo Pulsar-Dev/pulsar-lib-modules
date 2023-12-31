@@ -1,0 +1,9 @@
+{
+  "title": "PIXEL UI",
+  "type": "ServerContent",
+  "tags": [
+    "fun",
+    "roleplay"
+  ],
+  "ignore": [".github", "VERSION", "README.md", "LICENSE", ".gitignore"]
+}

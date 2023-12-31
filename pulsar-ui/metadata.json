@@ -1,0 +1,42 @@
+{
+    "name": "PulsarUI",
+    "description": "A modern, optimized UI library to replace derma and other slow built in Garry's Mod functions.",
+    "latest": "2.0.0",
+    "author": "Pulsar",
+    "license": "GPL-3.0",
+    "documentation": "",
+    "source": "https://github.com/Pulsar-Dev/pulsar-ui",
+    "folder": "pulsar-ui",
+    "global-var": "PulsarUI",
+    "load-hook": "PulsarUI.FullyLoaded",
+    "versions": {
+        "1.3.0": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/1.3.0/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/1.3.0",
+            "changelog": "Initial Pulsar Fork Release",
+            "dependencies": {}
+        },
+        "1.3.1": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/1.3.1/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/1.3.1",
+            "changelog": "Bug Fixes",
+            "dependencies": {}
+        },
+        "1.3.2": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/1.3.2/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/1.3.2",
+            "changelog": "Features\n- :SetCanScroll function on PIXEL.ScrollPanel\n- :OnOpen and :OnClose functions on PIXEL.ComboBox",
+            "dependencies": {}
+        },
+        "2.0.0": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.0.0/pixel-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.0.0",
+            "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
+            "dependencies": {}
+        }
+    }
+}
