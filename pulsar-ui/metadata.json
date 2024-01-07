@@ -44,6 +44,6 @@
             "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.1.0",
             "changelog": "- Switch from PIXELUI to PulsarUI\n- Some other minor improvements",
             "dependencies": {}
-        },
+        }
     }
 }
