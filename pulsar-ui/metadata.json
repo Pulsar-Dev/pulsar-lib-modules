@@ -37,6 +37,13 @@
             "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.0.0",
             "changelog": "Features\n- Redesign of many elements\n- Bug fixes\n- Fix some other weird stuff",
             "dependencies": {}
-        }
+        },
+        "2.1.0": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.1.0/pulsar-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.1.0",
+            "changelog": "- Switch from PIXELUI to PulsarUI\n- Some other minor improvements",
+            "dependencies": {}
+        },
     }
 }
