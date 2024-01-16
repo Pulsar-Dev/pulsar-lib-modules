@@ -47,7 +47,7 @@
         },
         "2.1.1": {
             "type": "release",
-            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.1.1/pulsar-ui.gma",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.1.1/pulsarui.gma",
             "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.1.1",
             "changelog": "- Fix errors when changing screen resolutions",
             "dependencies": {}
