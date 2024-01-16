@@ -1,7 +1,7 @@
 {
     "name": "Updatr",
     "description": "A gLua library that allows the server to send updates on large tables without resending the entire table over the network",
-    "latest": "0.0.2",
+    "latest": "0.0.3",
     "author": "Pulsar",
     "license": "MIT",
     "documentation": "https://docs.lythium.dev/s/wiki/doc/updatr-2h5vSXGfHQ",
@@ -22,6 +22,13 @@
             "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.2/updatr.gma",
             "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.2",
             "changelog": "Add some more debug logs and stuff",
+            "dependencies": {}
+        },
+        "0.0.3": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.3/updatr.gma",
+            "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.3",
+            "changelog": "0.0.3\nFixes\n\nFixed a bug where Updatr.GetUpdatedSubTables was unable to detect changes if the new value was nil",
             "dependencies": {}
         }
     }
