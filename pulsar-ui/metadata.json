@@ -1,7 +1,7 @@
 {
     "name": "PulsarUI",
     "description": "A modern, optimized UI library to replace derma and other slow built in Garry's Mod functions.",
-    "latest": "2.1.0",
+    "latest": "2.1.1",
     "author": "Pulsar",
     "license": "GPL-3.0",
     "documentation": "",
@@ -43,6 +43,13 @@
             "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.1.0/pulsar-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.1.0",
             "changelog": "- Switch from PIXELUI to PulsarUI\n- Some other minor improvements",
+            "dependencies": {}
+        },
+        "2.1.1": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.1.1/pulsar-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.1.1",
+            "changelog": "- Fix errors when changing screen resolutions",
             "dependencies": {}
         }
     }
