@@ -1,7 +1,7 @@
 {
     "name": "Updatr",
     "description": "A gLua library that allows the server to send updates on large tables without resending the entire table over the network",
-    "latest": "0.0.4",
+    "latest": "0.0.5",
     "author": "Pulsar",
     "license": "MIT",
     "documentation": "https://docs.lythium.dev/s/wiki/doc/updatr-2h5vSXGfHQ",
@@ -36,6 +36,13 @@
             "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.4/updatr.gma",
             "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.4",
             "changelog": "0.0.4\n\nAdded some more debug logs to help catch errors",
+            "dependencies": {}
+        },
+        "0.0.5": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/updatr/releases/download/0.0.5/updatr.gma",
+            "src": "https://github.com/Pulsar-Dev/updatr/tree/0.0.5",
+            "changelog": "0.0.4\n\nFixed some bugs",
             "dependencies": {}
         }
     }
