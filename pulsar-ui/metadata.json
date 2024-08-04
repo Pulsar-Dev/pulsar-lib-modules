@@ -1,7 +1,7 @@
 {
     "name": "PulsarUI",
     "description": "A modern, optimized UI library to replace derma and other slow built in Garry's Mod functions.",
-    "latest": "2.3.0",
+    "latest": "2.3.1",
     "author": "Pulsar",
     "license": "GPL-3.0",
     "documentation": "",
@@ -64,6 +64,13 @@
             "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.3.0/pulsar-ui.gma",
             "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.3.0",
             "changelog": "v2.3.0\n\nFeatures\n\nAdded new ColorMixer element\nMade Outlined Rounded Boxes smoother\n\nFixes\n\nSet TextEntry:SetDrawLanguageID to false\nFixed some other weirdness",
+            "dependencies": {}
+        },
+        "2.3.1": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-ui/releases/download/2.3.1/pulsar-ui.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-ui/tree/2.3.1",
+            "changelog": "v2.3.1\n\nFixes\n\nfix FormatMoney - TomDotBat#50 \nfix: use official color:lerp implementation if possible - TomDotBat#56",
             "dependencies": {}
         }
     }
