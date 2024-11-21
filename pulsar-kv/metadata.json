@@ -1,0 +1,21 @@
+{
+    "name": "PulsarKV",
+    "description": "PulsarKV is a key-value store for Garry's Mod",
+    "latest": "0.1",
+    "author": "Max W & Contributors",
+    "license": "MIT",
+    "documentation": "https://docs.lythium.dev",
+    "source": "https://github.com/Pulsar-Dev/pulsar-kv",
+    "folder": "pulsar-kv",
+    "global-var": "PulsarKV",
+    "load-hook": "PulsarKV.FullyLoaded",
+    "versions": {
+        "0.1": {
+            "type": "release",
+            "file": "https://github.com/Pulsar-Dev/pulsar-kv/releases/download/0.1/pulsarkv.gma",
+            "src": "https://github.com/Pulsar-Dev/pulsar-kv/tree/0.1",
+            "changelog": "Initial release",
+            "dependencies": {}
+        }
+    }
+}

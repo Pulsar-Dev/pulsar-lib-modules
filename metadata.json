@@ -1,5 +1,6 @@
 {
     "pulsar-ui": "/pulsar-ui",
     "pixel-ui": "/pixel-ui",
-    "updatr": "/updatr"
+    "updatr": "/updatr",
+    "pulsar-kv": "/pulsar-kv"
 }
